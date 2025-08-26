@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smi-al"
+version = "0.1.0"
+description = "Coverage-first active learning pipeline for surgical instance segmentation"
+authors = [{name = "Park, Xu et al."}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
