@@ -90,8 +90,9 @@ Edit `configs/sampling_phaseA.yaml`. Key fields:
 
 If you use this repository or build on our methodology, please cite **both** the paper and this codebase.
 
-**Paper (plain text)**  
-Park, Jay J. * and Xu, Bruce Changlong * and Cho, Josh and Htun, Ethan and Lee, Hwanhee and Zaluska, Tomasz Jan and Doiphode, Nehal and Lee, John Y.K. and Adeli, Ehsan and Buch, Vivek P. *Enhancing Surgeon-Machine Interface in Neurosurgery: Methodology for Efficient Annotation and Segmentation Model Development by Leveraging Embedding-Based Clustering Techniques.* 2025. Preprint. (*Equal contribution by the first two authors.*)
+**Paper**  
+
+Park, Jay J. * and Xu, Bruce Changlong * and Cho, Josh and Htun, Ethan and Lee, Hwanhee and Zaluska, Tomasz Jan and Doiphode, Nehal and Lee, John Y.K. and Adeli, Ehsan and Buch, Vivek P. *Enhancing Surgeon-Machine Interface in Neurosurgery: Methodology for Efficient Annotation and Segmentation Model Development by Leveraging Embedding-Based Clustering Techniques.* 19th World Congress of Neurosurgery (WFNS 2025), Dubai, UAE, December 2025. (*Equal contribution by the first two authors.*)
 
 **BibTeX (paper)**
 ```bibtex
