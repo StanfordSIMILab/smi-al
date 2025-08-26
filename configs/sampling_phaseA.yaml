@@ -1,0 +1,31 @@
+# Phase A sampling config
+data:
+  root: "data/toy"          # directory of .png/.jpg frames
+  glob: "*.png"
+  output_dir: "outputs/phaseA"
+
+fvi:
+  method: "grayscale_mad"   # mean absolute diff in grayscale
+  threshold_method: "std"   # "std" or "percentile"
+  std_k: 2.0                # keep frames with FVI >= mean + k*std
+  percentile: 80            # if threshold_method=="percentile"
+
+embedder:
+  name: "openclip"          # "openclip" or "fallback"
+  model: "ViT-B-32"         # OpenCLIP model
+  pretrained: "laion2b_s34b_b79k"
+
+umap:
+  n_neighbors: 15
+  min_dist: 0.10
+  dim: 32
+  seed: 42
+
+cluster:
+  k_max: 32                 # test k=2..k_max for elbow
+  elbow_smooth: 3
+
+selection:
+  m_per_cluster: 3          # frames per cluster
+  metric: "euclidean"
+  seed: 42
