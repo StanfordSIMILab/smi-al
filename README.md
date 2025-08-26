@@ -78,15 +78,15 @@ Edit `configs/sampling_phaseA.yaml`. Key fields:
 - `cluster`: k_max, elbow_smooth
 - `selection.m_per_cluster`: per-cluster quota
 
-## Roadmap (Phase B/C hooks)
+## Roadmap - Phase B and C
 - **Calibrated hybrids**: uncertainty gated within clusters; expected-model-change surrogates.
 - **Cost-aware batching**: utility-per-minute via time prediction + knapsack.
 - **Surgeon-in-the-loop UI**: prompts, veto, preview, time forecasts.
 - **Shift & OOD**: stratified acquisition, novelty detection, open-set channel.
 - **Federated AL**: local scoring + global diversity planning (indices only).
 
-## Citing
-See `CITATION.cff`. Please also cite OpenCLIP/UMAP/scikit-learn if you use those components.
+## Citation
 
----
-*This is research code; use with anonymized/synthetic data unless you have approvals. Do not commit PHI/PII.*
+If you reference this work, please reference the following citation:
+
+> 
